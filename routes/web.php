@@ -24,8 +24,8 @@ Route::post('/contact', function () {
 
     $data = request()->all();
 
-    echo "Email: " . $data['email'] . '<br>';
-    echo "Body: " . $data['body'];
+    echo "Thank you";
+    echo $data['name'];
 
 
 });
